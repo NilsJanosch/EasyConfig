@@ -2,6 +2,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/NilsJanosch/EasyConfig?style=for-the-badge&logo=github)](https://github.com/NilsJanosch/EasyConfig/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/NilsJanosch/EasyConfig?style=for-the-badge&logo=github)](https://github.com/NilsJanosch/EasyConfig/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/NilsJanosch/EasyConfig?style=for-the-badge&logo=github)](https://github.com/NilsJanosch/EasyConfig/issues)
+
 EasyConfig is a Java library designed to simplify configuration file handling using JSON files.
 
 ## Features
