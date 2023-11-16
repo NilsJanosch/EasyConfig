@@ -81,8 +81,11 @@ This JSON structure demonstrates the usage of put() and putInParent() methods in
 `putInParent()`: This method is utilized to nest values under a parent key. In this case, within the "client" object, three attributes are added:
 
 `"author"`: Holds the value `"NilsJanosch"`.
+
 `"admin"`: Represents a boolean value, `true`.
+
 `"age"`: Stores an integer value, `15`.
+
 These methods allow easy manipulation and organization of configuration data within the JSON file using the EasyConfig library.
 ## Contributing
 Contributions are welcome! Feel free to raise issues or submit pull requests to help improve EasyConfig.
