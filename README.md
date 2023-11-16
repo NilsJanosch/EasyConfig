@@ -90,4 +90,4 @@ These methods allow easy manipulation and organization of configuration data wit
 ## Contributing
 Contributions are welcome! Feel free to raise issues or submit pull requests to help improve EasyConfig.
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT](https://opensource.org/license/mit/) License - see the LICENSE file for details.
