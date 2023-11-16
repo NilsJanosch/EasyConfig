@@ -1,5 +1,7 @@
 # EasyConfig
-
+[![GitHub stars](https://img.shields.io/github/stars/NilsJanosch/EeasyConfig?style=social)](https://github.com/NilsJanosch/EeasyConfig/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/NilsJanosch/EeasyConfig?style=social)](https://github.com/NilsJanosch/EeasyConfig/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/NilsJanosch/EeasyConfig)](https://github.com/NilsJanosch/EeasyConfig/issues)
 EasyConfig is a Java library designed to simplify configuration file handling using JSON files.
 
 ## Features
@@ -7,6 +9,19 @@ EasyConfig is a Java library designed to simplify configuration file handling us
 - **Simple Configuration Handling**: EasyConfig provides straightforward methods to manage JSON-based configuration files.
 - **Flexible Usage**: Easily set, get, and modify configuration options within your Java application.
 - **Customizable Structure**: Allows nesting configurations within parent keys for organized data storage.
+
+## Made with
+
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+
+### Dependencies
+
+_You will find all the dependencies in the `pom.xml` file._
+
+| Dependency        | Version  |                                                                           Source |
+|:------------------|:--------:|---------------------------------------------------------------------------------:|
+| com.google.code.gson          | 2.10.1 |                          [mvn]([https://mvnrepository.com/artifact/org.json/json](https://mvnrepository.com/artifact/com.google.code.gson/gson)) |
 
 ## Getting Started
 
