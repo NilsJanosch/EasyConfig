@@ -49,10 +49,10 @@ To use EasyConfig in your Java project, follow these steps:
 ## Example Config
  ```json
 {
-   // put() 
+  // put() 
   "version": "1.0.0",
 
-   // putInParent()
+  // putInParent()
   "client": {
     "author": "NilsJanosch",
     "admin": true,
@@ -60,6 +60,16 @@ To use EasyConfig in your Java project, follow these steps:
   }
 }
 ```
+This JSON structure demonstrates the usage of put() and putInParent() methods in EasyConfig:
+
+put(): Used to directly set a key-value pair in the configuration. Here, the "version" key is set to "1.0.0".
+
+putInParent(): This method is utilized to nest values under a parent key. In this case, within the "client" object, three attributes are added:
+
+"author": Holds the value "NilsJanosch".
+"admin": Represents a boolean value, true.
+"age": Stores an integer value, 15.
+These methods allow easy manipulation and organization of configuration data within the JSON file using the EasyConfig library.
 ## Contributing
 Contributions are welcome! Feel free to raise issues or submit pull requests to help improve EasyConfig.
 ## License
