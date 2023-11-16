@@ -25,12 +25,12 @@ To use EasyConfig in your Java project, follow these steps:
    Config config = new Config("path/to/config/folder", "config.json");
    ```
 2. Set Configuration Values:
-```java
+   ```java
     // Set a value directly
     config.put("key", "value");
     // Set a value under a parent key
     config.putInParent("parentKey", "key", "value");
-```
+   ```
     
 3. Retrieve Configuration Values:
    ```java
@@ -42,9 +42,9 @@ To use EasyConfig in your Java project, follow these steps:
     ```
 4. Modify and Save Configuration
     ```java
-      // Get a value by key
+    // Get a value by key
     Object value = config.get("key");
-   // Get a value from under a parent key
+    // Get a value from under a parent key
     Object parentValue = config.getFromParent("parentKey", "key");
     ```
 ## Contributing
