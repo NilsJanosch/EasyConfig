@@ -49,18 +49,14 @@ To use EasyConfig in your Java project, follow these steps:
 ## Example Config
  ```json
 {
+   // put() 
   "version": "1.0.0",
-  "1021850377961881652": {
-    "vouches": 1,
-    "vouched": 0,
-    "1103293315845201920": "Good boy"
-  },
-  "1103293315845201920": {
-    "vouched": 1
-  },
-  "560074517804875786": {
-    "vouches": 1,
-    "1103293315845201920": "Cute anime waifu girllllyyyyyy"
+
+   // putInParent()
+  "client": {
+    "author": "NilsJanosch",
+    "admin": true,
+    "age": 15
   }
 }
 ```
