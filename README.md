@@ -21,7 +21,7 @@ _You will find all the dependencies in the `pom.xml` file._
 
 | Dependency        | Version  |                                                                           Source |
 |:------------------|:--------:|---------------------------------------------------------------------------------:|
-| com.google.code.gson          | 2.10.1 |                          [mvn]([https://mvnrepository.com/artifact/org.json/json](https://mvnrepository.com/artifact/com.google.code.gson/gson)) |
+| com.google.code.gson          | 2.10.1 | [mvn](https://mvnrepository.com/artifact/org.json/json](https://mvnrepository.com/artifact/com.google.code.gson/gson) |
 
 ## Getting Started
 
