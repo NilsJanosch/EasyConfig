@@ -35,7 +35,9 @@ public class Config {
         configFile.createNewFile();
         System.out.println("Created file at " + configFile.getAbsolutePath());
 
-        // Put at least 1 value in here. can be version or whatever.
+        putInParent("credits", "config-author", "Truthy_dev");
+        putInParent("credits", "config-source", "https://github.com/NilsJanosch/EasyConfig");
+        putInParent("credits", "config-version", "1.0.0");
         
       } catch (IOException e) {
         throw new RuntimeException(e);
