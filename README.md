@@ -49,10 +49,8 @@ To use EasyConfig in your Java project, follow these steps:
 ## Example Config
  ```json
 {
-  // put() 
   "version": "1.0.0",
 
-  // putInParent()
   "client": {
     "author": "NilsJanosch",
     "admin": true,
