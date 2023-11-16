@@ -36,7 +36,6 @@ To use EasyConfig in your Java project, follow these steps:
    ```java
     // Get a value by key
     Object value = config.get("key");
-
     // Get a value from under a parent key
     Object parentValue = config.getFromParent("parentKey", "key");
     ```
