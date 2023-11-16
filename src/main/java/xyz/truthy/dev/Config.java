@@ -16,9 +16,13 @@ public class Config {
   private static File configPath;
   private static JsonObject configObject = new JsonObject();
 
-  public Config(String filePath, String configFile) {
+    public Config(String filePath, String configFile) {
     configPath = new File(filePath);
-    this.configFile = new File(configFile);
+    this.configFile = new File(configPath + "\\" + configFile);
+
+    System.out.println("Config Folder: " + this.configPath.getAbsolutePath());
+    System.out.println("Config File:   " + this.configFile.getAbsolutePath());
+
     init();
     loadFromFile();
   }
@@ -27,7 +31,12 @@ public class Config {
     if (!configFile.exists()) {
       try {
         configPath.mkdirs();
+        System.out.println("Created Folder at " + configPath.getAbsolutePath());
         configFile.createNewFile();
+        System.out.println("Created file at " + configFile.getAbsolutePath());
+
+        // Put at least 1 value in here. can be version or whatever.
+        
       } catch (IOException e) {
         throw new RuntimeException(e);
       }
