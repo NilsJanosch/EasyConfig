@@ -46,6 +46,24 @@ To use EasyConfig in your Java project, follow these steps:
     // Get a value from under a parent key
     Object parentValue = config.getFromParent("parentKey", "key");
     ```
+## Example Config
+ ```json
+{
+  "version": "1.0.0",
+  "1021850377961881652": {
+    "vouches": 1,
+    "vouched": 0,
+    "1103293315845201920": "Good boy"
+  },
+  "1103293315845201920": {
+    "vouched": 1
+  },
+  "560074517804875786": {
+    "vouches": 1,
+    "1103293315845201920": "Cute anime waifu girllllyyyyyy"
+  }
+}
+```
 ## Contributing
 Contributions are welcome! Feel free to raise issues or submit pull requests to help improve EasyConfig.
 ## License
