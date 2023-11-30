@@ -14,10 +14,11 @@ public class Config {
 
   private static File configFile;
   private static File configPath;
-  private static JsonObject configObject = new JsonObject();
+  private static JsonObject configObject;
 
     public Config(String filePath, String configFile) {
     configPath = new File(filePath);
+    configObject = = new JsonObject();
     this.configFile = new File(configPath + "\\" + configFile);
 
     System.out.println("Config Folder: " + this.configPath.getAbsolutePath());
