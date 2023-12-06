@@ -18,7 +18,7 @@ public class Config {
 
     public Config(String filePath, String configFile) {
     configPath = new File(filePath);
-    configObject = = new JsonObject();
+    configObject = new JsonObject();
     this.configFile = new File(configPath + "\\" + configFile);
 
     System.out.println("Config Folder: " + this.configPath.getAbsolutePath());
